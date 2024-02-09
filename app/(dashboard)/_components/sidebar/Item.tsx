@@ -30,7 +30,7 @@ function Item({ id, name, imageUrl }: ItemProps) {
         src={imageUrl}
         alt={name}
         onClick={onClick}
-        className={cn("rounded-md cursor-pointer opacity-75 hover:opacity-100")}
+        className={cn("rounded-md cursor-pointer opacity-75 hover:opacity-90")}
       />
     </div>
   );
